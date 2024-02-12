@@ -1,0 +1,23 @@
+.container {
+  display: flex;
+  gap: 20px;
+  padding: 0;
+  position: absolute;
+  bottom: 3%;
+  right: 3%;
+
+  li {
+    list-style: none;
+
+    a {
+      text-decoration: none;
+      font-size: 14px;
+      font-weight: 600;
+      letter-spacing: 0.8px;
+
+      &:visited {
+        color: inherit;
+      }
+    }
+  }
+}
