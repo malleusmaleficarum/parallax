@@ -1,6 +1,5 @@
 'use client';
 import { useEffect } from 'react';
-import styles from './page.module.css';
 import General from '@/components/General';
 import Zoom from '@/components/Zoom';
 import Lenis from '@studio-freight/lenis';
